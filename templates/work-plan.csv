@@ -1,0 +1,7 @@
+work_id,phase,work_item,owner,planned_start,planned_finish,predecessor,deliverable_or_exit_condition,status,percent_complete,notes
+W001,Initiation,Define and approve project charter,,,,,Approved charter,Not started,0,
+W002,Design,Approve evaluation design,,,,W001,Approved evaluation plan,Not started,0,
+W003,Data readiness,Receive and validate approved data,,,,W002,Data-readiness gate approved,Not started,0,
+W004,Analysis,Complete and review analysis,,,,W003,Analysis gate approved,Not started,0,
+W005,Interpretation and reporting,Prepare and approve deliverables,,,,W004,Release gate approved,Not started,0,
+W006,Closeout,Archive and transfer project assets,,,,W005,Closeout checklist complete,Not started,0,

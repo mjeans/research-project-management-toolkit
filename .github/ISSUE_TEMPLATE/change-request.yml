@@ -1,0 +1,41 @@
+name: Change request
+description: Propose and assess a material project change
+title: "[Change] "
+body:
+  - type: input
+    id: requirement
+    attributes:
+      label: Related requirement or milestone
+      placeholder: REQ-001 or milestone name
+  - type: textarea
+    id: requested_change
+    attributes:
+      label: Requested change
+      description: Describe the proposed change and why it is needed.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact assessment
+      description: Address scope, validity, data, schedule, effort, stakeholders, deliverables, and risk.
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options considered
+      description: Include the no-change option and your recommendation.
+    validations:
+      required: true
+  - type: input
+    id: decision_owner
+    attributes:
+      label: Decision owner
+    validations:
+      required: true
+  - type: input
+    id: decision_by
+    attributes:
+      label: Decision needed by
+      placeholder: YYYY-MM-DD

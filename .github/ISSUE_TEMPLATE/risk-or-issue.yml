@@ -1,0 +1,59 @@
+name: Risk or issue
+description: Log a new uncertainty or current problem
+title: "[Risk/Issue] "
+body:
+  - type: dropdown
+    id: record_type
+    attributes:
+      label: Record type
+      options:
+        - Risk
+        - Issue
+    validations:
+      required: true
+  - type: textarea
+    id: statement
+    attributes:
+      label: Statement
+      description: For a risk, use cause-event-effect language. For an issue, describe the current condition and impact.
+    validations:
+      required: true
+  - type: dropdown
+    id: probability
+    attributes:
+      label: Probability
+      options:
+        - Low
+        - Medium
+        - High
+        - Not applicable - current issue
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
+  - type: textarea
+    id: response
+    attributes:
+      label: Response and contingency
+      description: Include actions, trigger, contingency, and escalation threshold.
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Owner
+    validations:
+      required: true
+  - type: input
+    id: target_date
+    attributes:
+      label: Target date
+      placeholder: YYYY-MM-DD

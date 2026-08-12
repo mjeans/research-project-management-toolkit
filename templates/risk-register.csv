@@ -1,0 +1,2 @@
+risk_id,date_identified,category,risk_statement,probability,impact,exposure,trigger,response_strategy,response_actions,contingency,owner,target_date,status,last_reviewed
+R001,,,,,,,,,,,,,Open,

@@ -1,0 +1,12 @@
+work_id,phase,work_item,owner,planned_start,planned_finish,predecessor,deliverable_or_exit_condition,status,percent_complete,notes
+W001,Initiation,Approve charter,Project lead,Week 1,Week 1,,Signed charter,Complete,100,
+W002,Design,Approve evaluation questions and estimand,Evaluation lead,Week 1,Week 2,W001,Design decisions recorded,Complete,100,
+W003,Design,Finalize analysis and data specifications,Evaluation lead,Week 2,Week 3,W002,Evaluation plan approved,In progress,60,
+W004,Data readiness,Execute data-use and access approvals,Data owner,Week 1,Week 4,W001,Access confirmed,In progress,50,Runs in parallel with design
+W005,Data readiness,Receive and validate extract,Data analyst,Week 5,Week 7,"W003;W004",Data-readiness gate approved,Not started,0,
+W006,Analysis,Construct analytic population and comparison,Evaluation lead,Week 8,Week 9,W005,Population and balance diagnostics reviewed,Not started,0,
+W007,Analysis,Estimate primary and sensitivity models,Evaluation lead,Week 9,Week 11,W006,Peer review complete,Not started,0,
+W008,Interpretation and reporting,Interpret with program and data leads,Project lead,Week 12,Week 12,W007,Interpretation decisions logged,Not started,0,
+W009,Interpretation and reporting,Draft technical report and decision brief,Evaluation lead,Week 12,Week 14,W008,Drafts ready for approval,Not started,0,
+W010,Interpretation and reporting,Approve final deliverables,Sponsor,Week 15,Week 15,W009,Release gate approved,Not started,0,
+W011,Closeout,Archive artifacts and lessons learned,Project lead,Week 16,Week 16,W010,Closeout checklist complete,Not started,0,
