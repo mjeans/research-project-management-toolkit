@@ -1,0 +1,7 @@
+requirement_id,source,requirement,priority,linked_evaluation_question,planned_evidence,deliverable,acceptance_criteria,verification_owner,status,change_id,notes
+REQ01,Community review,Define burden and decision rights,Must,EQ03,Reviewed charter,D01,Named owners and scope exclusions accepted,Sponsor,Planned,,W001
+REQ02,Evaluation protocol,Specify recall and energy-density estimands,Must,EQ02,Approved protocol,D02,Units and paired-versus-group estimands explicit,Evaluation lead,Planned,,W002
+REQ03,Data governance,Establish permitted access and release controls,Must,EQ01,Governance approval record,D03,Required determinations and permissions documented,Data steward,Planned,,W003
+REQ04,Assessment quality,Test complete two-recall workflow,Must,EQ01,Synthetic dry-run checks,D04,Missing recall and invalid date cases detected,Nutrition assessment lead,Planned,,W004
+REQ05,Readiness gate,Resolve recruitment and staffing blockers,Must,EQ03,Readiness decision record,D05,Open high risks have approved responses,Sponsor,Planned,,W005
+REQ06,Reporting specification,Separate descriptive change from causal claims,Must,EQ02,Annotated table shells,D06,Denominators uncertainty and limitations specified,Evaluation lead,Planned,,W006
