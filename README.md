@@ -74,9 +74,13 @@ scripts/
 
 ## Example scenario
 
+The [nutrition-evaluation example](examples/nutrition-evaluation/charter.md) adds a fictional planning/readiness case with dietary-assessment questions, governance gates, a dated work plan, risk ownership, and requirement-to-deliverable traceability. It explicitly separates planning from a completed study and descriptive findings from program-effect claims.
+
 The completed example shows a 16-week evaluation of a fictional literacy-support pilot across twelve sites. It demonstrates realistic sequencing, dependencies, risk ownership, contingency triggers, and deliverable acceptance without using proprietary information.
 
 ## Tailoring guidance
+
+Run `python scripts/validate_templates.py`, `python scripts/validate_examples.py`, and `python -m unittest discover -s tests -v`. Worked examples validate dates, predecessor references/cycles, completion status, risk ownership, and traceability. The illustrative risk matrix scores Low/Medium/High as 1/2/3: product 1–2 is Low, 3–4 Medium, and 6–9 High. This is a planning convention, not a quantitative probability model.
 
 Keep only the controls that change a decision or reduce meaningful risk. A short analysis may need a one-page charter and a decision log; a multisite evaluation involving protected data may require all of the templates plus organization-specific privacy, security, and review procedures.
 
@@ -88,4 +92,4 @@ Research operations · project planning · scope management · risk management �
 
 ## License
 
-CC BY 4.0
+[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode.en), as stated in [LICENSE](LICENSE). Copyright 2026 Matthew Jeans. The existing license is unchanged; when adapting the templates, retain attribution, identify changes, and link the license. Example validation scripts remain under this repository's existing license too.

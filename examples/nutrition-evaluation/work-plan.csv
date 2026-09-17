@@ -1,0 +1,7 @@
+work_id,phase,work_item,owner,planned_start,planned_finish,predecessor,deliverable_or_exit_condition,status,percent_complete,notes
+W001,Initiation,Approve scope and decision rights,Project lead,2026-10-01,2026-10-05,,D01,Not started,0,Fictional planning baseline
+W002,Design,Specify questions and dietary assessment,Evaluation lead,2026-10-06,2026-10-16,W001,D02,Not started,0,Define denominators and missingness rules before collection
+W003,Governance,Obtain required organizational determinations,Data steward,2026-10-06,2026-10-23,W001,D03,Not started,0,No recruitment or real data access before approval
+W004,Readiness,Test instruments on synthetic records,Nutrition assessment lead,2026-10-19,2026-10-30,W002,D04,Not started,0,Accessibility and two-recall scheduling review
+W005,Gate review,Review collection readiness,Sponsor,2026-11-02,2026-11-06,W002;W003;W004,D05,Not started,0,Separate authorization required to begin recruitment
+W006,Handoff,Approve reporting and closeout specification,Evaluation lead,2026-11-09,2026-11-13,W005,D06,Not started,0,Planning deliverable only; no completed findings claimed
