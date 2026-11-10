@@ -37,4 +37,6 @@ Report invitation, enrollment, assessment, and complete-recall denominators sepa
 
 ## Change and closeout
 
+The [second-recall decision memo](second-recall-decision.md) is a separate tabletop exercise for EQ01 and EQ03. It uses invented counts to show a possible sponsor decision, not actual recruitment or an approved change to this plan.
+
 Material changes require the standard change-request template, impact review, sponsor decision, and updated requirements/work-plan links. Closeout requires accepted deliverables, unresolved risks with named owners, a reproducible artifact inventory, and approved retention/deletion instructions. No approval status is implied by this example.
