@@ -74,6 +74,8 @@ scripts/
 
 ## Example scenario
 
+**Leadership work sample:** [Two sites are missing second dietary recalls. What should the sponsor do?](examples/nutrition-evaluation/second-recall-decision.md) A one-page fictional decision memo separates a data-delivery problem from a scheduling problem and names who acts, when, and how the decision will be revisited.
+
 The [nutrition-evaluation example](examples/nutrition-evaluation/charter.md) adds a fictional planning/readiness case with dietary-assessment questions, governance gates, a dated work plan, risk ownership, and requirement-to-deliverable traceability. It explicitly separates planning from a completed study and descriptive findings from program-effect claims.
 
 The completed example shows a 16-week evaluation of a fictional literacy-support pilot across twelve sites. It demonstrates realistic sequencing, dependencies, risk ownership, contingency triggers, and deliverable acceptance without using proprietary information.
